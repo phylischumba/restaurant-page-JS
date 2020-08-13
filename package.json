@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-page-JS",
+  "version": "1.0.0",
+  "description": "This is a project from [the Odin project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) for implementation of webpack and continued DOM manipulation in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phylis05/restaurant-page-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phylis05/restaurant-page-JS/issues"
+  },
+  "homepage": "https://github.com/Phylis05/restaurant-page-JS#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
