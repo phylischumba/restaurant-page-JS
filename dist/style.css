@@ -172,7 +172,7 @@ a:hover {
     width: 100%;
     padding: 1.2em;
     border: 1px solid #eee;
-    background: #303030;;
+    background: #303030;
     box-sizing: border-box;
     border-color: rgba(255,255,255,0.08);
     color: #fff;
@@ -200,7 +200,19 @@ a:hover {
 }
 
 .contact {
-  background-color: aqua;
-  height: 100vh;
-  width: 100vw;
+  background-color: #303030;;
+  color: #fff;
+  padding: 5em;
+ 
+  font-weight: 400;
+}
+
+.contact-main h4 {
+  font-size: 2.5em;
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+.text-center {
+  margin-left: 1em;
 }
