@@ -16,7 +16,7 @@ This is a project from [the Odin project](https://www.theodinproject.com/courses
 
 ## Live Demo
 
-Click [here]() to visit a live version of the web app.
+Click [here](https://raw.githack.com/Phylis05/restaurant-page-JS/restaurant-page/dist/index.html) to visit a live version of the web app.
 
 ## Getting Started
 
