@@ -39,17 +39,17 @@ const mainMenu = () => {
   const imageLink1 = document.createElement('a');
 
   const img1 = document.createElement('img');
-  img1.src = 'http://restabook.kwst.net/dark/images/menu/4.jpg';
+  img1.src = 'https://usercontent2.hubstatic.com/13702095_f520.jpg';
   img1.setAttribute('class', 'img-fluid');
 
   const menuInfo1 = document.createElement('div');
   menuInfo1.setAttribute('class', 'menu-info');
 
   const item1 = document.createElement('h4');
-  item1.innerHTML = 'Prime Cuts of Beef';
+  item1.innerHTML = 'Maharagwe';
 
   const para1 = document.createElement('p');
-  para1.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.';
+  para1.innerHTML = 'Maharagwe, red kidney beans cooked in coconut milk. Served hot with ugali, rice, chapati, or mandazi. Can be sweet or savory.';
 
   const span1 = document.createElement('span');
   span1.innerHTML = '$17';
@@ -68,17 +68,17 @@ const mainMenu = () => {
   const imageLink2 = document.createElement('a');
 
   const img2 = document.createElement('img');
-  img2.src = 'http://restabook.kwst.net/dark/images/menu/4.jpg';
+  img2.src = 'https://i.pinimg.com/originals/22/31/f4/2231f4087f369157e3d2651f6fa434f7.jpg';
   img2.setAttribute('class', 'img-fluid');
 
   const menuInfo2 = document.createElement('div');
   menuInfo2.setAttribute('class', 'menu-info');
 
   const item2 = document.createElement('h4');
-  item2.innerHTML = 'Prime Cuts of Beef';
+  item2.innerHTML = 'Beef Stew & Ugali';
 
   const para2 = document.createElement('p');
-  para2.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.';
+  para2.innerHTML = "A classic Kenyan beef stew accompanied with properly cooked Ugali is everyone's favorite";
 
   const span2 = document.createElement('span');
   span2.innerHTML = '$17';
@@ -98,17 +98,17 @@ const mainMenu = () => {
   const imageLink3 = document.createElement('a');
 
   const img3 = document.createElement('img');
-  img3.src = 'http://restabook.kwst.net/dark/images/menu/4.jpg';
+  img3.src = 'https://cdn-cf.tucantravel.com/images/Country-guide-Tucan-Travel/Kenya-tours-trips-holidays/food-and-drink-in-kenya/Mandazi-popular-food-in-Kenya.jpg';
   img3.setAttribute('class', 'img-fluid');
 
   const menuInfo3 = document.createElement('div');
   menuInfo3.setAttribute('class', 'menu-info');
 
   const item3 = document.createElement('h4');
-  item3.innerHTML = 'Prime Cuts of Beef';
+  item3.innerHTML = 'Mahamri/Mandazi';
 
   const para3 = document.createElement('p');
-  para3.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.';
+  para3.innerHTML = 'A semisweet pastry usually served for breakfast alongside a cup of warming chai.';
 
   const span3 = document.createElement('span');
   span3.innerHTML = '$17';
@@ -128,17 +128,17 @@ const mainMenu = () => {
   const imageLink4 = document.createElement('a');
 
   const img4 = document.createElement('img');
-  img4.src = 'http://restabook.kwst.net/dark/images/menu/4.jpg';
+  img4.src = 'https://cdn-cf.tucantravel.com/images/Country-guide-Tucan-Travel/Kenya-tours-trips-holidays/food-and-drink-in-kenya/Vegetarian-food-in-Kenya.jpg';
   img4.setAttribute('class', 'img-fluid');
 
   const menuInfo4 = document.createElement('div');
   menuInfo4.setAttribute('class', 'menu-info');
 
   const item4 = document.createElement('h4');
-  item4.innerHTML = 'Prime Cuts of Beef';
+  item4.innerHTML = 'Githeri';
 
   const para4 = document.createElement('p');
-  para4.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.';
+  para4.innerHTML = 'A vegetarian meal served with vegetables.';
 
   const span4 = document.createElement('span');
   span4.innerHTML = '$17';
@@ -158,17 +158,17 @@ const mainMenu = () => {
   const imageLink5 = document.createElement('a');
 
   const img5 = document.createElement('img');
-  img5.src = 'http://restabook.kwst.net/dark/images/menu/4.jpg';
+  img5.src = 'https://usercontent2.hubstatic.com/13702037_f520.jpg';
   img5.setAttribute('class', 'img-fluid');
 
   const menuInfo5 = document.createElement('div');
   menuInfo5.setAttribute('class', 'menu-info');
 
   const item5 = document.createElement('h4');
-  item5.innerHTML = 'Prime Cuts of Beef';
+  item5.innerHTML = 'Mutura';
 
   const para5 = document.createElement('p');
-  para5.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.';
+  para5.innerHTML = 'Mutura, sausage that is made up of fresh blood and meat.Spices and ingredients, like ginger, scallions, garlic, and red/green chillies, are added to it.';
 
   const span5 = document.createElement('span');
   span5.innerHTML = '$17';
@@ -189,17 +189,17 @@ const mainMenu = () => {
   const imageLink6 = document.createElement('a');
 
   const img6 = document.createElement('img');
-  img6.src = 'http://restabook.kwst.net/dark/images/menu/4.jpg';
+  img6.src = 'https://usercontent1.hubstatic.com/13702032_f520.jpg';
   img6.setAttribute('class', 'img-fluid');
 
   const menuInfo6 = document.createElement('div');
   menuInfo6.setAttribute('class', 'menu-info');
 
   const item6 = document.createElement('h4');
-  item6.innerHTML = 'Prime Cuts of Beef';
+  item6.innerHTML = 'Chips Mayai';
 
   const para6 = document.createElement('p');
-  para6.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.';
+  para6.innerHTML = "It is basically a combination of French fries and an egg omelet. It's considered junk food, but I guess it is fine to indulge in such foods once in a while";
 
   const span6 = document.createElement('span');
   span6.innerHTML = '$17';
@@ -257,7 +257,7 @@ const mainMenu = () => {
   imageLink5.appendChild(img5);
   div5.appendChild(menuInfo5);
   menuInfo5.appendChild(item5);
-  menuInfo5.appendChild(para1);
+  menuInfo5.appendChild(para5);
   menuInfo5.appendChild(span5);
   menuInfo5.appendChild(button5);
 

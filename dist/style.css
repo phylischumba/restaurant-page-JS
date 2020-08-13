@@ -176,6 +176,12 @@ a:hover {
     box-sizing: border-box;
     border-color: rgba(255,255,255,0.08);
     color: #fff;
+    height: 200px;
+}
+
+.menu-list-item img {
+  height: 250px;
+  width: 100%;
 }
 
 .menu-info h4 {
@@ -202,8 +208,8 @@ a:hover {
 .contact {
   background-color: #303030;;
   color: #fff;
-  padding: 5em;
- 
+  padding: 6em;
+  height: 100vh;
   font-weight: 400;
 }
 
@@ -211,6 +217,7 @@ a:hover {
   font-size: 2.5em;
   font-weight: 800;
   margin-bottom: 1em;
+  
 }
 
 .text-center {
