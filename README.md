@@ -2,7 +2,10 @@
 This is a project from [the Odin project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) for implementation of webpack and continued DOM manipulation in Javascript
 
 ## Web App Screenshots
-![](./images/app_screenshot.png)
+![](./images/welcome.png)
+
+
+![](./images/menu.png)
 
 ## Built With
 
@@ -31,10 +34,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-
 👤 **Phylis Chepchumba**
 
-- Github: [@Phlylis05](https://github.com/phlylis05)
+- Github: [Phylis05](https://github.com/phlylis05)
 - Linkedin: [PhylisChepchumba](https://linkedin.com/PhylisChepchumba)
 - Twitter: [phylis_chumbaa](https://twitter.com/phylis_chumbaa)
 
