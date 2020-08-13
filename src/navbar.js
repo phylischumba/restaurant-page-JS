@@ -1,26 +1,24 @@
 const navBar = () => {
-  const mainPage = document.querySelector('#content');
  
   const mainNav = document.createElement('div');
   mainNav.setAttribute('class', 'main-nav');
-  mainPage.appendChild(mainNav);
   const nav = document.createElement('nav')
   mainNav.appendChild(nav)
   const homeLink = document.createElement('a');
-  homeLink.setAttribute('href', 'home.html');
+  homeLink.setAttribute('id', 'home');
   homeLink.innerHTML = 'Home'
   const menuLink = document.createElement('a');
-  menuLink.setAttribute('href', 'menu.html');
+  menuLink.setAttribute('id', 'menu');
   menuLink.innerHTML = 'Menu'
   const contactLink = document.createElement('a');
-  contactLink.setAttribute('href', 'home.html');
+  contactLink.setAttribute('id', 'contact');
   contactLink.innerHTML = 'Contact'
   nav.appendChild(homeLink);
   nav.appendChild(menuLink);
   nav.appendChild(contactLink);
 
   
-  return mainPage;
+  return mainNav;
 
 }
 

@@ -1,5 +1,4 @@
 const homeMainPage = () => {
-  const homePage = document.querySelector('#content');
 
   const mainContent = document.createElement('div');
   mainContent.setAttribute('class', 'main-content');
@@ -8,7 +7,6 @@ const homeMainPage = () => {
   const overlay = document.createElement('div');
   overlay.setAttribute('class', 'overlay')
 
-  homePage.appendChild(mainContent);
   mainContent.appendChild(mainPage);
   mainPage.appendChild(overlay);
 
@@ -56,7 +54,7 @@ const homeMainPage = () => {
   rightDiv.appendChild(image);
 
 
-  return homePage
+  return mainContent;
 }
 
 export default homeMainPage 

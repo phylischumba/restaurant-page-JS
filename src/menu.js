@@ -1,5 +1,4 @@
 const mainMenu = () => {
-  const menuPage = document.querySelector('#content');
 
   const menu = document.createElement('div');
   menu.setAttribute('class', 'menu-page');
@@ -19,7 +18,6 @@ const mainMenu = () => {
   const header4 = document.createElement('h4');
   header4.innerHTML = 'Discover Our Menu';
 
-  menuPage.appendChild(menu);
   menu.appendChild(contentPage);
   contentPage.appendChild(overlay);
   contentPage.appendChild(sectionTitle);
@@ -275,7 +273,7 @@ const mainMenu = () => {
   menuInfo6.appendChild(button6);
 
 
-  return menuPage;
+  return menu;
 
 }
 
