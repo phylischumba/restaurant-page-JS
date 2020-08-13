@@ -1,6 +1,7 @@
 import navBar from './navbar';
 import homeMainPage from './mainPage';
 import menu from './menu';
+import contactPage from './contact'
 
 // navBar();
 // homeMainPage();
@@ -9,7 +10,7 @@ import menu from './menu';
 
 const displayNav = navBar();
 const displayHome = homeMainPage();
-// const displayContact = contactPage();
+const displayContact = contactPage();
 const displayMenu = menu();
 
 const content = document.querySelector('#content');
@@ -26,7 +27,7 @@ displaySection(displayHome);
 const home = document.getElementById('home');
 
 const menuPage = document.getElementById('menu');
-// const contact = document.getElementById('contact');
+const contact = document.getElementById('contact');
 
 const showMethod = (x) => {
   if (x.target === home) {
@@ -34,11 +35,11 @@ const showMethod = (x) => {
   } else if (x.target === menuPage) {
     displaySection(displayMenu);
   } else {
-    // show(displayContact);
+    displaySection(displayContact);
   }
 };
 
 
 home.addEventListener('click', showMethod );
-menuPage.addEventListener('click', showMethod );
-// contact.addEventListener('click', showMethod );
+menuPage.addEventListener('click', showMethod);
+contact.addEventListener('click', showMethod );
