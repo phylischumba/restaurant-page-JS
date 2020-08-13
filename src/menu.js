@@ -1,11 +1,10 @@
 const mainMenu = () => {
-
   const menu = document.createElement('div');
   menu.setAttribute('class', 'menu-page');
 
   const contentPage = document.createElement('div');
   contentPage.setAttribute('class', 'content-page');
-  
+
   const overlay = document.createElement('div');
   overlay.setAttribute('class', 'overlay');
 
@@ -23,7 +22,7 @@ const mainMenu = () => {
   contentPage.appendChild(sectionTitle);
   sectionTitle.appendChild(paragraph);
   sectionTitle.appendChild(header4);
- 
+
 
   const menuItems = document.createElement('div');
   menuItems.setAttribute('class', 'menu-items');
@@ -59,7 +58,7 @@ const mainMenu = () => {
   button1.innerHTML = 'Add to Cart';
   button1.setAttribute('type', 'submit');
 
-//  div2
+  //  div2
   const div2 = document.createElement('div');
   div2.setAttribute('class', 'menu-list-item col-lg-4 col-md-6 mb-3');
 
@@ -79,7 +78,7 @@ const mainMenu = () => {
   item2.innerHTML = 'Prime Cuts of Beef';
 
   const para2 = document.createElement('p');
-  para2.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.'
+  para2.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.';
 
   const span2 = document.createElement('span');
   span2.innerHTML = '$17';
@@ -109,7 +108,7 @@ const mainMenu = () => {
   item3.innerHTML = 'Prime Cuts of Beef';
 
   const para3 = document.createElement('p');
-  para3.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.'
+  para3.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.';
 
   const span3 = document.createElement('span');
   span3.innerHTML = '$17';
@@ -139,7 +138,7 @@ const mainMenu = () => {
   item4.innerHTML = 'Prime Cuts of Beef';
 
   const para4 = document.createElement('p');
-  para4.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.'
+  para4.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.';
 
   const span4 = document.createElement('span');
   span4.innerHTML = '$17';
@@ -169,7 +168,7 @@ const mainMenu = () => {
   item5.innerHTML = 'Prime Cuts of Beef';
 
   const para5 = document.createElement('p');
-  para5.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.'
+  para5.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.';
 
   const span5 = document.createElement('span');
   span5.innerHTML = '$17';
@@ -200,7 +199,7 @@ const mainMenu = () => {
   item6.innerHTML = 'Prime Cuts of Beef';
 
   const para6 = document.createElement('p');
-  para6.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.'
+  para6.innerHTML = 'Granny help you treat yourself with a empor scelerisque different meal everyday.';
 
   const span6 = document.createElement('span');
   span6.innerHTML = '$17';
@@ -274,7 +273,6 @@ const mainMenu = () => {
 
 
   return menu;
-
-}
+};
 
 export default mainMenu;

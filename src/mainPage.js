@@ -1,11 +1,10 @@
 const homeMainPage = () => {
-
   const mainContent = document.createElement('div');
   mainContent.setAttribute('class', 'main-content');
   const mainPage = document.createElement('div');
   mainPage.setAttribute('class', 'main-page');
   const overlay = document.createElement('div');
-  overlay.setAttribute('class', 'overlay')
+  overlay.setAttribute('class', 'overlay');
 
   mainContent.appendChild(mainPage);
   mainPage.appendChild(overlay);
@@ -40,9 +39,9 @@ const homeMainPage = () => {
   const header4 = document.createElement('h4');
   header4.innerHTML = 'Few words about us...';
   const paragraph = document.createElement('p');
-  paragraph.innerHTML = 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.Explore Our Menu'
-  leftDiv.appendChild(spanOne)
-  leftDiv.appendChild(header4)
+  paragraph.innerHTML = 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.Explore Our Menu';
+  leftDiv.appendChild(spanOne);
+  leftDiv.appendChild(header4);
   leftDiv.appendChild(paragraph);
 
   const rightDiv = document.createElement('div');
@@ -55,6 +54,6 @@ const homeMainPage = () => {
 
 
   return mainContent;
-}
+};
 
-export default homeMainPage 
+export default homeMainPage;

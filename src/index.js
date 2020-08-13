@@ -1,7 +1,7 @@
 import navBar from './navbar';
 import homeMainPage from './mainPage';
 import menu from './menu';
-import contactPage from './contact'
+import contactPage from './contact';
 
 // navBar();
 // homeMainPage();
@@ -40,6 +40,6 @@ const showMethod = (x) => {
 };
 
 
-home.addEventListener('click', showMethod );
+home.addEventListener('click', showMethod);
 menuPage.addEventListener('click', showMethod);
-contact.addEventListener('click', showMethod );
+contact.addEventListener('click', showMethod);
