@@ -3,11 +3,6 @@ import homeMainPage from './mainPage';
 import menu from './menu';
 import contactPage from './contact';
 
-// navBar();
-// homeMainPage();
-// // menu();
-
-
 const displayNav = navBar();
 const displayHome = homeMainPage();
 const displayContact = contactPage();
