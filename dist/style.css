@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,400&family=Poppins:wght@400;800&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.main-page {
+  background-image: url('http://restabook.kwst.net/dark/images/bg/2.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.main-nav {
+    width: 80vw;
+    height: 10vh;
+    background-color: #292929;
+    margin-top: 2em;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 10vw;
+    z-index: 10;
+}
+
+nav {
+  width: 50%;
+  display: flex !important;
+  justify-content: space-around;
+}
+
+nav a {
+  float: left;
+    padding: 5px 11px;
+    color: #FFFFFF !important;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 25px;
+    transition: all 100ms linear;
+    position: relative;
+}
+
+.main-body {
+  position: absolute;
+  text-align: left;
+  top: 30vh;
+  color: #fff;
+  left: 10vw;
+  z-index: 10;
+}
+
+.top-services {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  margin-bottom: 2em;
+  font-style: oblique;
+}
+
+.welcome {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.3em;
+  width: 50vw;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 900;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.4;
+  z-index: 3;
+}
+
+.menu-link {
+  border: 1px solid #C19D60;;
+  color: #fff;
+  float: left;
+  padding: 14px 20px;
+  background: rgba(255,255,255,0.1);
+  font-style: normal;
+  font-family: 'Playfair Display', cursive;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 200ms linear;
+}
+
+a:hover {
+  color: #C19D60;
+  text-decoration: none;
+}
+
+.our-story {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #212121;
+  color: #fff;
+  padding: 3em;
+ 
+}
+
+.left-div {
+  width: 50vw;
+  margin-right: 3em;
+}
+
+.left-div span {
+  color: #C19D60;
+  font-family:  'Playfair Display', cursive;
+  font-style: italic;
+  font-size: 1.3em;
+  align-self: flex-start;
+}
+
+.left-div h4 {
+  font-family: 'Playfair Display', cursive;
+  font-size: 2.5em;
+}
+
+.left-div p {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 4em;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.content-page {
+  background-image: url('http://restabook.kwst.net/dark/images/bg/12.jpg');
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title {
+  color: #fff;
+  z-index: 10;
+}
+
+.section-title p {
+  color: #C19D60;
+  font-family: 'Playfair Display', cursive;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.section-title h4 {
+  color: #fff;
+  font-family: 'Playfair Display', cursive;
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+}
+
+.menu-page .overlay {
+  height: 100vh;
+}
+
+.menu-items {
+  background-color: #212121;
+  padding: 5em;
+}
+
+.menu-info {
+  float: left;
+    width: 100%;
+    padding: 1.2em;
+    border: 1px solid #eee;
+    background: #303030;
+    box-sizing: border-box;
+    border-color: rgba(255,255,255,0.08);
+    color: #fff;
+    height: 200px;
+}
+
+.menu-list-item img {
+  height: 250px;
+  width: 100%;
+}
+
+.menu-info h4 {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.menu-info span {
+  color: #C19D60;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.menu-info button {
+  background-color: #C19D60;
+  color: white;
+  border: none;
+  float: right;
+  font-weight: 600;
+}
+
+.contact {
+  background-color: #303030;;
+  color: #fff;
+  padding: 6em;
+  height: 100vh;
+  font-weight: 400;
+}
+
+.contact-main h4 {
+  font-size: 2.5em;
+  font-weight: 800;
+  margin-bottom: 1em;
+  
+}
+
+.text-center {
+  margin-left: 1em;
+}
